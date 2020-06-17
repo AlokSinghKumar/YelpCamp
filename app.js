@@ -3,11 +3,9 @@ var express = require("express"),
 	app = express(),
 	bodyparser = require("body-parser"),
  	mongoose = require("mongoose"),
- 	campground = require("./models/campground"),
 	passport = require("passport"),
 	localStrategy = require("passport-local"),
 	user = require("./models/user"),
-	comment = require("./models/comment"),
 	methodOverride = require("method-override"),
 	session = require('express-session');
 

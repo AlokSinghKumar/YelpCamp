@@ -1,4 +1,5 @@
 var user = require("../models/user");
+var passport = require("passport");
 
 exports.landingPage = (req, res) => {
     res.render("landing.ejs");
